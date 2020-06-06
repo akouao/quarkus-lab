@@ -1,9 +1,9 @@
 metadata:
-  name: quarkus
+  name: quarkus-workspace
 projects:
   - name: quarkus-lab
     source:
-      location: 'https://github.com/akouao/quarkus-intro.git'
+      location: 'https://github.com/akouao/quarkus-lab.git'
       type: git
 components:
   - id: redhat/quarkus-java11/latest
