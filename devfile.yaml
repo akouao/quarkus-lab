@@ -10,18 +10,12 @@ components:
     type: chePlugin
   - mountSources: true
     endpoints:
-      - name: web-user1
+      - name: web-dev
         port: 8080
         attributes:
           public: 'true'
           protocol: http
           discoverable: 'true'
-      - name: debug-user1
-        port: 5005
-        attributes:
-          public: 'false'
-          protocol: jdwp
-          discoverable: 'false'
     memoryLimit: 4Gi
     type: dockerimage
     alias: quarkus-tools
