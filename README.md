@@ -1,1 +1,1 @@
-# quarkus-lab
+Devfile deals with the configuration of the Quarkus Project on CodeReady Workspaces.
