@@ -40,7 +40,9 @@ commands:
     actions:
       - workdir: '${CHE_PROJECTS_ROOT}'
         type: exec
-        command: 'mvn clean compile quarkus:dev -f ${CHE_PROJECTS_ROOT}/getting-started'
+        command: >-
+          mvn clean compile quarkus:dev -f
+          ${CHE_PROJECTS_ROOT}/quarkus-lab/getting-started
         component: quarkus-tools
   - name: Package Application
     actions:
