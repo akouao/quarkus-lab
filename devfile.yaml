@@ -1,5 +1,5 @@
 metadata:
-  name: -workspace
+  name: user-workspace
 projects:
   - name: quarkus-lab
     source:
