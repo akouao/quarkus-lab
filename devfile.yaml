@@ -1,5 +1,5 @@
 metadata:
-  name: quarkus-workspace
+  name: quarkus-lab
 projects:
   - name: quarkus-lab
     source:
@@ -20,7 +20,7 @@ components:
     type: dockerimage
     alias: quarkus-tools
     image: >-
-      image-registry.openshift-image-registry.svc:5000/openshift/quarkus-stack:2.1
+      registry.redhat.io/codeready-workspaces/plugin-java11-rhel8@sha256:38e363ba28941e6ef688d511c388324d0f83f7a1fac3eb65e09aa50858f0ae84
     env:
       - value: /home/jboss/.m2
         name: MAVEN_CONFIG
@@ -40,9 +40,7 @@ commands:
     actions:
       - workdir: '${CHE_PROJECTS_ROOT}'
         type: exec
-        command: >-
-          mvn clean compile quarkus:dev -f
-          ${CHE_PROJECTS_ROOT}/quarkus-lab/getting-started
+        command: 'mvn clean compile quarkus:dev -f ${CHE_PROJECTS_ROOT}/getting-started'
         component: quarkus-tools
   - name: Package Application
     actions:
