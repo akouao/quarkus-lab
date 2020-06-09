@@ -10,7 +10,7 @@ components:
     type: chePlugin
   - mountSources: true
     endpoints:
-      - name: web-dev
+      - name: web-development
         port: 8080
         attributes:
           public: 'true'
