@@ -2,9 +2,8 @@
 
 ## Table of Contents
  * Introduction
- * Introductory Topics Covered
  * Environment Prerequisites
- * Getting Started
+ * Setup
 
 ## Introduction
 
