@@ -1,12 +1,12 @@
-### Quarkus Lab ![OCP](https://img.shields.io/badge/OCP-4.4.3-green)
+# Quarkus Lab ![OCP](https://img.shields.io/badge/OCP-4.4.3-green)
 
-# Table of Contents
+## Table of Contents
  * Introduction
  * Introductory Topics Covered
  * Environment Prerequisites
  * Getting Started
 
-# Introduction
+## Introduction
 
 Current maintainer: Ally Kouao <akouao@redhat.com>
 
@@ -14,13 +14,13 @@ Original content can be found at [RedHat-Middleware-Workshop / Quarkus Workshop]
 
 This workshop is an introduction to the capabilities of [Quarkus](https://quarkus.io); supersonic, subatomic container-native Java. This forms part of the Developer Experience (DevEx) workshops. The workshop uses [Red Hat CodeReady Workspaces](https://www.redhat.com/en/technologies/jboss-middleware/codeready-workspaces) to develop a simple Quarkus apps, and covers several other developer topics such as:
 
-# Introductory Topics Covered
+## Introductory Topics Covered
 
 * Dependency Injection
 * Building Native Quarkus Apps
 * Documenting and Testing APIs
 
-# Environment Prequisities
+## Environment Prequisities
 
 Assumes you have a running OpenShift 4 cluster and have:
 
@@ -28,7 +28,7 @@ Assumes you have a running OpenShift 4 cluster and have:
 
 If you not have OCP4 cluster then please proceed to [https://try.openshift.com](try.openshift.com) to get one installed and configured before proceeding to next section.
 
-# Setup
+## Setup
 
 1. Log on to your console as a cluster admin on your terminal (recommended). You will occasionally require your UI console in later steps.
 
