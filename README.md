@@ -30,10 +30,12 @@ If you not have OCP4 cluster then please proceed to [https://try.openshift.com](
 
 # Setup
 
-1. Log on to the OCP4.3 console as a cluster admin on your terminal (recommended). You will occasionally require your UI in later steps.
+1. Log on to the OCP4.3 console as a cluster admin on your terminal (recommended). You will occasionally require your UI console in later steps.
 
 2. Create a project called `quarkus-lab`
-`$ oc new-project quarkus-lab`
+```
+$ oc new-project quarkus-lab`
+```
 
 3. Ensure that you are on `Administrator` view
 
@@ -45,7 +47,7 @@ $ oc create -n openshift -f stack.imagestream.yaml
 $ oc import-image --all quarkus-stack -n openshift
 ```
 
-6. Switch to `Developer` view on the console
+6. Switch to `Developer` view on the UI console
 
 7. Once the CodeReady Workspaces instace is ready, open the URL and login
 
