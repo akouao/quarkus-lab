@@ -53,7 +53,7 @@ $ oc import-image --all quarkus-stack -n openshift
 
 9. Manually remove the pre-made project, and add the URL of this [repository](https://github.com/akouao/quarkus-lab).
 
-10. Navigate to the `devfile` tab. Use the raw URL of `devfile.yaml`.
+10. Navigate to the `devfile` tab. Use the raw URL of `devfile.yaml`
 
 11. Click 'Create and open'
 
