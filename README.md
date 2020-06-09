@@ -57,4 +57,4 @@ $ oc import-image --all quarkus-stack -n openshift
 
 11. Click 'Create and open'
 
-12. Look forward to Quarkus' wow-ing you!
+12. Look forward to Quarkus wow-ing you!
