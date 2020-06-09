@@ -1,4 +1,4 @@
-## Quarkus Lab Stack
+### Quarkus Lab ![OCP](https://img.shields.io/badge/OCP-4.4.3-green)
 
 # Table of Contents
  * Introduction
@@ -30,7 +30,7 @@ If you not have OCP4 cluster then please proceed to [https://try.openshift.com](
 
 # Setup
 
-1. Log on to the OCP4.3 console as a cluster admin on your terminal (recommended). You will occasionally require your UI console in later steps.
+1. Log on to your console as a cluster admin on your terminal (recommended). You will occasionally require your UI console in later steps.
 
 2. Create a project called `quarkus-lab`
 ```
@@ -39,7 +39,7 @@ $ oc new-project quarkus-lab`
 
 3. Ensure that you are on `Administrator` view
 
-4. [Install CodeReady Workspaces and navigate to the CodeReady Workspaces URL](https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces/2.0/html/installation_guide/installing-codeready-workspaces-on-ocp-4_crw) Skip step 1.1.1
+4. [Install CodeReady Workspaces and navigate to the CodeReady Workspaces URL](https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces/2.0/html/installation_guide/installing-codeready-workspaces-on-ocp-4_crw) (Skip step 1.1.1, though - you created a project already!)
 
 5. Create and import quarkus-stack image on the `stack` branch
 ```
