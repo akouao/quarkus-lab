@@ -12,9 +12,7 @@ Current maintainer: Ally Kouao <akouao@redhat.com>
 
 Original content can be found at [RedHat-Middleware-Workshop / Quarkus Workshop](https://github.com/RedHat-Middleware-Workshops/quarkus-workshop)
 
-This workshop is an introduction to the capabilities of [Quarkus](https://quarkus.io); supersonic, subatomic container-native Java. This forms part of the Developer Experience (DevEx) workshops. The workshop uses [Red Hat CodeReady Workspaces](https://www.redhat.com/en/technologies/jboss-middleware/codeready-workspaces) to develop a simple Quarkus apps, and covers several other developer topics such as:
-
-## Introductory Topics Covered
+This workshop is an introduction to the capabilities of [Quarkus](https://quarkus.io); supersonic, subatomic container-native Java, and forms part of the Developer Experience (DevEx) workshops. The workshop uses [Red Hat CodeReady Workspaces](https://www.redhat.com/en/technologies/jboss-middleware/codeready-workspaces) to develop a simple Quarkus apps, and covers a few developr topics such as:
 
 * Dependency Injection
 * Building Native Quarkus Apps
